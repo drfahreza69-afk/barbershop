@@ -1,0 +1,22 @@
+{
+  "name": "barber-kingz",
+  "version": "1.0.0",
+  "description": "BARBER KING'S ZAED — The Gentleman's Atelier & Grooming Lounge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "barbershop",
+    "barber-kingz",
+    "website"
+  ],
+  "author": "Barber King's Zaed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

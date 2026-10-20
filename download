@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+
+# Backups and temporary files
+*.bak
+*.bak_pre_motion
+*.tmp
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db

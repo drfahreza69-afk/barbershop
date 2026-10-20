@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1c1914"/>
+      <stop offset="60%" stop-color="#0a0a0c"/>
+      <stop offset="100%" stop-color="#040405"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf5cf"/>
+      <stop offset="35%" stop-color="#d4af37"/>
+      <stop offset="70%" stop-color="#aa832f"/>
+      <stop offset="100%" stop-color="#f8e59e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGlow)"/>
+
+  <!-- Gold Outer Rim -->
+  <rect x="20" y="20" width="472" height="472" rx="90" fill="none" stroke="url(#goldGrad)" stroke-width="6" opacity="0.85"/>
+  <rect x="32" y="32" width="448" height="448" rx="78" fill="none" stroke="#c5a880" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Crown Monogram -->
+  <g transform="translate(106, 120) scale(1.25)">
+    <!-- Crown -->
+    <path d="M 30 140 L 50 60 L 95 105 L 120 40 L 145 105 L 190 60 L 210 140 Z" fill="url(#goldGrad)"/>
+    <!-- Jewels -->
+    <circle cx="50" cy="50" r="8" fill="#fff5d0"/>
+    <circle cx="120" cy="30" r="10" fill="#fff5d0"/>
+    <circle cx="190" cy="50" r="8" fill="#fff5d0"/>
+    <!-- Base band -->
+    <rect x="25" y="148" width="190" height="18" rx="4" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="256" y="375" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="34" font-weight="800" fill="url(#goldGrad)" letter-spacing="3">BARBER KING&apos;S ZAED</text>
+  <text x="256" y="415" text-anchor="middle" font-family="'Cinzel', Georgia, serif" font-size="16" font-weight="600" fill="#c5a880" letter-spacing="8">ATELIER &amp; LOUNGE</text>
+</svg>
+
